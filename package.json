@@ -1,0 +1,22 @@
+{
+  "name": "dream-farm",
+  "private": true,
+  "version": "10.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "server": "node server/index.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.170.0",
+    "express": "^4.21.0",
+    "socket.io": "^4.8.0",
+    "socket.io-client": "^4.8.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
